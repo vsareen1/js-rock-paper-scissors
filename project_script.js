@@ -17,5 +17,13 @@ function getComputerChoice() {
     return choices[choiceNumber]
 }
 
+function getHumanChoice() {
+    // function to get the response from the human 
+    const humanResponse =window.prompt('Please choose from "rock", "paper", "scissors".');
+
+    return humanResponse;
+}
+
 
 console.log(getComputerChoice());
+console.log(getHumanChoice());
